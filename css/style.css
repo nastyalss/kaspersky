@@ -50,10 +50,10 @@ footer {
     background-color: #eddfff;
 }
 #contact-form input[type="submit"]:hover {
-    height: 20px;
+    height: 30px;
     width: 250px;
-    padding: 2px;
-    margin-bottom: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
     border: white solid 1px;
     background-color: #897b9c;
 
@@ -61,15 +61,15 @@ footer {
 #contact-form textarea[type="textarea"] {
     height: 20px;
     width: 250px;
-    padding: 2px;
+    padding: 10px;
     margin-bottom: 10px;
     border: white solid 1px;
     background-color: #eddfff;
 }
 #contact-form input[type="submit"] {
-    height: 20px;
+    height: 30px;
     width: 250px;
-    padding: 2px;
+    padding: 5px;
     margin-bottom: 20px;
     border: rgb(255, 18, 18) solid 1px;
     background-color: #f56494;
