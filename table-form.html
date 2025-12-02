@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <table class="my-table">
+        <caption>Счет</caption>
+        <thead>
+            <tr>
+                <th>Наименование</th>
+                <th>Цена</th>
+                <th>Кол-во</th>
+                <th>Стоимость</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Хлеб</td>
+                <td>50р</td>
+                <td rowspan="2">4</td>
+                <td>200р</td>
+            </tr>
+             <tr>
+                <td>Штрудель</td>
+                <td>40р</td>
+                <td>8</td>
+                <td>240р</td>
+            </tr>
+             <tr>
+                <td>Слойка</td>
+                <td>70р</td>
+                <td>140р</td>
+            </tr>
+            <tr>
+                <td colspan="3">Итого</td>
+                <td>400р</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <form id="register" action="">
+        <label for="login">Введите логин</label><br>
+        <input type="text" id="login" name="login" placeholder="Логин" required><br>
+        <label for="pass">Введите пароль</label><br>
+        <input type="password" id="pass" name="pass" placeholder="Пароль"><br>
+        <input type="submit" value="Зарегистрироваться">
+        <input type="reset"><br>
+        <input type="radio" id="student" name="role" checked>
+        <label for="student">студент</label><br>
+        <input type="radio" id="teacher" name="role">
+        <label for="teacher">учитель</label><br>
+        <label for="occupation">Направление</label><br>
+        <select name="occupation" id="occupation">
+            <option value="it">Программист</option>
+            <option value="design">Дизайнер</option>
+            <option value="manager">Менеджер</option>
+        </select><br>
+        <label for="about">О себе</label><br>
+        <textarea name="about" id="about"></textarea><br>
+
+
+    </form>
+
+
+</body>
+</html>

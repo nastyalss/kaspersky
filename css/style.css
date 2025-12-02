@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 1em;
+    font-family: "PT Serif Caption", serif;
+
+}
+
+body {
+    background-color: rgb(134, 217, 247);
+}
+
+header {
+    background-color: rgb(51, 108, 212);
+    text-align: center;
+    padding: 20px 40px;
+
+}
+
+footer {
+    background-color: rgb(28, 67, 104);
+    color:white;
+    padding: 20px 40px;
+}
+
+#about {
+    background-color: rgb(175, 241, 243);
+    padding: 20px 40px;
+    text-align: center;
+    
+    
+    
+}
+#contact-form input[type="text"] {
+    height: 20px;
+    width: 250px;
+    padding: 2px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+}
+#contact-form input[type="email"] {
+    height: 20px;
+    width: 250px;
+    padding: 2px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+}
+#contact-form input[type="submit"]:hover {
+    height: 20px;
+    width: 250px;
+    padding: 2px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #897b9c;
+
+}
+#contact-form textarea[type="textarea"] {
+    height: 20px;
+    width: 250px;
+    padding: 2px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+}
+#contact-form input[type="submit"] {
+    height: 20px;
+    width: 250px;
+    padding: 2px;
+    margin-bottom: 20px;
+    border: rgb(255, 18, 18) solid 1px;
+    background-color: #f56494;
+
+}
+ #feedback{
+    text-align: center;
+}
+#contact-form select{
+    height: 25px;
+    width: 255px;
+    padding: 2px;
+    margin-bottom: 20px;
+    border: white solid 1px;
+    background-color: #eddfff;
+
+}
+
+#articles {
+    padding: 20px 40px;
+
+    
+}
+#part1
+{
+    text-align: center;
+    padding: 20px 40px;
+    
+
+}
+#part2
+{
+    text-align: center;
+    padding: 20px 40px;
+
+}
+#part3
+{
+    text-align: center;
+    padding: 20px 40px;
+
+}
+#content {
+    padding: 20px 40px;
+}
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+p {
+    text-align: justify;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+
+nav ul {
+    list-style:none;
+    text-transform: uppercase;
+
+   
+}
+
+a:link {
+    color:darkgreen;
+}
+a:visited {
+    color: yellow;
+}
+a:active {
+    color: orange;
+}
+a:hover {
+    color:aquamarine;
+}
+a:focus {
+    color: red;
+}
+ol li:nth-child(odd) {
+    background-color: rgb(193, 193, 255);
+}
+ol.links li:nth-child(even){
+    background-color: rgb(85, 123, 248);
+}
+
+
+.a-important::after {
+    content: "Важно";
+    font-size: 12px;
+    color:rgb(255, 0, 0);
+    margin-left: 15px;
+}
+.wide::first-line {
+    letter-spacing: 5px;
+}
+
+.language:lang(en) {
+    font-size: 16pt;
+}
+.h2-new {
+    font-family: "Elms Sans", sans-serif;
+    font-weight: 500;
+}
+#about {
+    background-color: rgb(94, 145, 255);
+}
+
+.image img {
+    width: 500px;
+}
+.border {
+    border: 3px solid red;
+}
+
+.text {
+    margin-top: 50px;
+    background-color: brown;
+}
+.my-table {
+    border: solid 10px red;
+    border-collapse: collapse;
+}
+
+.my-table td,
+.my-table th {
+    border-bottom: solid 1px black;
+    padding:10px 15px
+}
+.my-table tr:nth-child(odd) {
+    color: red;
+}
+.my-table td:nth-child(even),
+.my-table th:nth-child(even) {
+    background-color: green;
+}
+.my-table tr:last-child td:nth-child(2) {
+    text-align: center;
+}
+.my-table td:first-child{
+    background-color: pink;
+}
+.my-table tr:last-child {
+    font-size: 20px;
+}
+
+.my-table tr:first-child {
+    font-size: 20px;
+}
+#register {
+    width: 320px;
+    margin: 10px auto;
+    border-radius: 50px;
+    padding: 60px;
+    background-color: lightgray;
+
+}
+#register input[type=text],
+#register input[type=password],
+#register textarea,
+#register select
+ {
+    background-color: beige;
+    padding: 7px;
+    border-radius: 5px;
+    color: dimgray;
+    margin-bottom: 10px;
+    border: 1px solid dimgray;
+}
+#register input[type=submit]
+ {
+    background: dimgray;
+    padding: 7px;
+    border-radius: 15px;
+    color: white;
+    border:none;
+}
+#register input[type=submit]:hover {
+    background: black;
+}
+#register input[type=radio] {
+    accent-color: dimgray;
+}
+
